@@ -132,9 +132,6 @@ export default function Home() {
   return (
     <>
     <Container fluid>
-      <Row className="text-center">
-        <h1>Olá, a hospedagem do back-end teve que ser removida pois tive problema com cobranças indevidas por parte da AWS. Suspendi os serviços até que tudo se resolva! Agradeço pela compreensão.</h1>
-      </Row>
       <Row>
         <Col md={{span:6, offset:3}}>
           <InputGroup className='search-bar'>
@@ -150,6 +147,9 @@ export default function Home() {
             </InputGroup.Append>
           </InputGroup>
         </Col>
+      </Row>
+      <Row className="text-center">
+        <h3>Olá, a hospedagem do back-end teve que ser removida pois tive problema com cobranças indevidas por parte da AWS. Suspendi os serviços até que tudo se resolva! Agradeço pela compreensão.</h3>
       </Row>
       <Row>
           {
