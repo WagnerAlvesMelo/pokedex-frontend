@@ -149,7 +149,9 @@ export default function Home() {
         </Col>
       </Row>
       <Row className="text-center">
-        <h3>Olá, a hospedagem do back-end teve que ser removida pois tive problema com cobranças indevidas por parte da AWS. Suspendi os serviços até que tudo se resolva! Agradeço pela compreensão.</h3>
+        <h3>Olá, a hospedagem do back-end teve que ser removida pois tive problema com cobranças indevidas por parte da AWS.
+          Suspendi os serviços até que tudo se resolva! Agradeço pela compreensão. Enquanto isso, estarei adaptando o serviço para rodar com Docker.
+        </h3>
       </Row>
       <Row>
           {
